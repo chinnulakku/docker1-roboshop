@@ -5,4 +5,4 @@ ENV MONGO=true
 COPY package.json /opt/server/
 COPY server.js /opt/server/
 RUN npm install
-CMD ["node", "sserver.js"]
+CMD ["node", "server.js"]
