@@ -38,3 +38,7 @@ services:
     - redis
     - catalogue
 
+  mysql:
+    image: mysql:1
+    
+
